@@ -30,7 +30,8 @@ public class LobbyPlayerPanel : MonoBehaviour
 
     public void SetReady(bool ready)
     {
-        if (ready)
+        isReady = ready;
+        if (isReady)
         {
             txtReady.text = "Ready";
         }

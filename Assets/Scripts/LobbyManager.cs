@@ -41,7 +41,7 @@ public class LobbyManager : NetworkBehaviour
         if (IsClient)
         {
             btnReady.onClick.AddListener(ClientOnReadyClicked);
-            RefreshPlayerPanels();
+            
         }
     }
 
